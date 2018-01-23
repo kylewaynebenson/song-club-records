@@ -48,9 +48,9 @@
         <div class="trigger">
           {% assign current = page.url | downcase | split: '/' %}
             <ul>
-              <li><a href="{{ site.baseurl }}/About/" {% if current[1] == 'about' %}class='active'{% endif %}>About</a></li>
-              <li><a href="{{ site.baseurl }}/Writing/" {% if current[1] == 'writing' %}class='active'{% endif %}>Writing</a></li>
-              <li><a href="{{ site.baseurl }}/Artists/" {% if current[1] == 'artists' %}class='active'{% endif %}>Artists</a></li>
+              <li><a href="{{ site.baseurl }}/about/" {% if current[1] == 'about' %}class='active'{% endif %}>About</a></li>
+              <li><a href="{{ site.baseurl }}/writing/" {% if current[1] == 'writing' %}class='active'{% endif %}>Writing</a></li>
+              <li><a href="{{ site.baseurl }}/artists/" {% if current[1] == 'artists' %}class='active'{% endif %}>Artists</a></li>
             </ul>
 
         </div>
