@@ -1,6 +1,8 @@
 <div class="max-container">
 <header class="site-header" role="banner">
   <div class="container">
+    {% assign default_paths = site.pages | map: "path" %}
+    {% assign page_paths = site.header_pages | default: default_paths %}
     <a class="logo" href="{{ "/" | relative_url }}">
       <svg class="img" version="1.1" x="0px" y="0px"
          viewBox="0 0 105.8 105.8">
@@ -46,9 +48,9 @@
         <div class="trigger">
           {% assign current = page.url | downcase | split: '/' %}
             <ul>
-              <li><a href="{{ site.baseurl }}About/" {% if current[1] == 'about' %}class='active'{% endif %}>About</a></li>
-              <li><a href="{{ site.baseurl }}Writing/" {% if current[1] == 'writing' %}class='active'{% endif %}>Writing</a></li>
-              <li><a href="{{ site.baseurl }}Artists/" {% if current[1] == 'artists' %}class='active'{% endif %}>Artists</a></li>
+              <li><a href="{{ site.baseurl }}/About/" {% if current[1] == 'about' %}class='active'{% endif %}>About</a></li>
+              <li><a href="{{ site.baseurl }}/Writing/" {% if current[1] == 'writing' %}class='active'{% endif %}>Writing</a></li>
+              <li><a href="{{ site.baseurl }}/Artists/" {% if current[1] == 'artists' %}class='active'{% endif %}>Artists</a></li>
             </ul>
 
         </div>
