@@ -10,9 +10,9 @@
   <meta property="og:title" content="Song Club Records" />
   <meta property="og:site_name" content="Song Club Records"/>
   <meta property="og:description" content="Create songthing meaningful" />
-  <meta property="og:image" content="https://www.songclubrecords.com/images/facebook-big.png" />
-  <meta name="twitter:card" content="https://www.songclubrecords.com/images/twitter-big.png" />
-  <meta name="twitter:image" content="https://www.songclubrecords.com/images/twitter-big.png">
+  <meta property="og:image" content="{{ "/images/facebook-big.png" | prepend: site.baseurl }}"/>
+  <meta name="twitter:card" content="{{ "/images/twitter-big.png" | prepend: site.baseurl }}"/>
+  <meta name="twitter:image" content="{{ "/images/twitter-big.png" | prepend: site.baseurl }}">
 
   <link href="{{ "/css/main.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
