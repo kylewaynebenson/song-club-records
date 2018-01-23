@@ -17,8 +17,8 @@ title: Song Club Records
 email: contact@songclubrecords.com
 description: >- # this means to ignore newlines until "baseurl:"
   A new kind of record label
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://kylewaynebenson.github.io/song-club-records" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/song-club-records" # the subpath of your site, e.g. /blog
+url: "https://kylewaynebenson.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: songclubrecords
 instagram_username:  songclubrecords
 
