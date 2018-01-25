@@ -16,7 +16,7 @@
 
   <link href="{{ site.baseurl }}/css/main.css?{{site.time | date: '%s%N'}}" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="{{ site.baseurl }}/js/application.js" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/js/application.js?{{site.time | date: '%s%N'}}" type="text/javascript"></script>
   <link rel="icon" type="image/png" href="{{ "/images/favicon.png" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">

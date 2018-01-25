@@ -4,32 +4,66 @@ title: About
 permalink: /about/
 ---
 <h1 class="h1 center-align gold">Song Club is a different <br/>kind of record label</h1>
+<nav class="secondary-nav secondary-nav-fixed">
+	<ul class="inline-list center-align">
+		<li><span class="small grey">1.</span> <a href='#why'>Why</a></li>
+		<li><span class="small grey">2.</span> <a href='#how'>How</a></li>
+		<li><span class="small grey">3.</span> <a href='#our-part'>Our part</a></li>
+		<li><span class="small grey">4.</span> <a href='#your-part'>Your part</a></li>
+	</ul>
+</nav>
+<nav class="secondary-nav">
+	<ul class="inline-list center-align">
+		<li><span class="small grey">1.</span> <a href='#why'>Why</a></li>
+		<li><span class="small grey">2.</span> <a href='#how'>How</a></li>
+		<li><span class="small grey">3.</span> <a href='#our-part'>Our part</a></li>
+		<li><span class="small grey">4.</span> <a href='#your-part'>Your part</a></li>
+	</ul>
+</nav>
 
-<section class="section padding-bottom">
+<section id="why" class="section padding-bottom">
 	<div class="container">
 		<div class="row">
 			<div class="columns six">
-				<svg  x="0px" y="0px" viewBox="0 0 810.4 550.6">
+				<svg  class="svg-hero" x="0px" y="0px" viewBox="0 0 810.4 1320">
 					<g class="hero-image">
-						<image class="image" xlink:href="{{ 'images/page-about/jake-lyman.png' | relative_url }}" >
+						<image class="image image-1" xlink:href="{{ 'images/page-about/jake-lyman.png' | relative_url }}" >
 						</image>
 					</g>
-					<path class="fried-egg" d="M658.1,431.1c0,69.7-51.7,112.8-113.4,112.8c-64.3,0-67-31.2-118.1-31.2c-47.1,0-56.4,31.2-204.3,31.2
+					<g class="hero-image">
+						<image class="image image-2" xlink:href="{{ 'images/page-about/emily-brown-1.png' | relative_url }}" >
+						</image>
+					</g>
+					<path class="fried-egg fried-egg-3" d="M97.3,845.2c0-49.5,16.6-106.4,36-142.4C157.6,658,191.7,634,255.2,634c80.1,0,114.1,34.4,114.1,75.8
+						c0,40.2-24,59.2-66.9,73.5c-50.3,16.6-56.1,32.9-85.9,78.6c-18.6,28.2-41.8,56.9-73.5,56.9C110.8,918.8,97.3,889.7,97.3,845.2z"/>
+					<g class="hero-image">
+						<image class="image image-3" xlink:href="{{ 'images/page-about/lindenfield-1.png' | relative_url }}" >
+						</image>
+					</g>
+					<g class="hero-image">
+						<image class="image image-4" xlink:href="{{ 'images/page-about/emily-brown-2.png' | relative_url }}" >
+						</image>
+					</g>
+					<path class="fried-egg fried-egg-1" d="M658.1,431.1c0,69.7-51.7,112.8-113.4,112.8c-64.3,0-67-31.2-118.1-31.2c-47.1,0-56.4,31.2-204.3,31.2
 					C95.5,543.9,0,455,0,350.2c0-86.9,63.7-93.5,63.7-167.8c0-67,37.1-138,139.3-138c116.8,0,146.6,78.3,256.1,78.3
 					c61,0,78.3-26.6,149.9-26.6c78.3,0,108.8,66.3,108.8,121.4C717.8,291.1,658.1,333.6,658.1,431.1z"/>
+					<path class="fried-egg fried-egg-2" d="M233.3,632.9c0-79.9,122.3-185.7,278.9-185.7c142.4,0,224.5,88.4,224.5,194.1c0,100-74.5,152.6-132.6,152.6
+						c-84.8,0-94.2-110.2-204-110.2c-46,0-65.6,20.1-97.3,20.1C265.4,703.9,233.3,674.9,233.3,632.9z"/>
 				</svg>
 			</div>
 			<div class="columns six">
-				<p class="grey">The current music industry model doesn't pay artists. Making a living off of Spotify streams, merch, and touring only works for Ed Sheeran!</p>
+				<p class="mt-20">It's a constant uphill battle for most of the independent artists you know and love. On top of moving forward in a complicated business world, the story many artists are trying to tell isn’t one that big record labels know how to sell or license. Most of our favorite records didn't go platinum, never made Spotify's Indie Chill playlist, or expanded the assets of General Electric—we're lucky they even got made in the first place!</p>
+				<p class="mb-15">This is why we started Song Club Records. We’re a group of musicians and producers who love making music, some as our day jobby, others as our night hobby. With your help, we can spend more time writing beautiful and meaningful music and less time convincing our friends to like our facebook pages, managing our shirt inventory of mostly XXLs, and emailing wordpress blogs.</p>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="section padding gold-stripes-background">
+<section id="how" class="section padding gold-stripes-background">
 	<div class="container">
-		<h2 class="h2 center-align gold">We’ve figured out our minimum cost to make a quality record</h2>
-		<img src="{{ 'images/page-about/minimum-cost.png' | relative_url }}">
-		<div class="white-background grey-border button-ish">
+		<h2 class="h2 center-align gold">We’ve figured out our minimum cost <br/>to make a quality record</h2>
+		<p class="center-align ms-50">After years of making DIY records, we've figured out how to get the most bang for our buck.</p>
+		<img class="margin" src="{{ 'images/page-about/minimum-cost.png' | relative_url }}">
+		<div class="white-background grey-border button-ish margin">
 		        <table class="u-full-width no-margin">
 		          <thead>
 		            <tr>
@@ -51,7 +85,7 @@ permalink: /about/
 		            </tr>
 		            <tr>
 		              <td>Manufacturing</td>
-		              <td>N/A</td>
+		              <td class="grey small">N/A</td>
 		              <td>$300-1,000.00</td>
 		            </tr>
 		            <tr>
@@ -61,7 +95,7 @@ permalink: /about/
 		            </tr>
 		            <tr>
 		              <td>Marketing/Promotion</td>
-		              <td>N/A</td>
+		              <td class="grey small">N/A</td>
 		              <td>$1-2,000.00</td>
 		            </tr>
 		          </tbody>
@@ -76,15 +110,15 @@ permalink: /about/
 		    </div>
 		    <div class="center-align">
 			<div class="white-background white-border button-ish">
-				<a class="underline" href="https://docs.google.com/spreadsheets/d/1ET5w0lAXu9xTrNO2y08K0bG04g_AWcYPvB9vzGZbkZE/edit?usp=sharing">See our 100% transparent expense sheet</a>
+				<a class="underline" href="https://docs.google.com/spreadsheets/d/1ET5w0lAXu9xTrNO2y08K0bG04g_AWcYPvB9vzGZbkZE/edit?usp=sharing">Peek at our completely transparent expense sheet</a>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="section padding">
+<section id="our-part" class="section padding">
 	<div class="container">
 		<h2 class="h1 gold center-align">We’ll always make good records</h2>
-		<p class="grey center-align">Having no money to make records hasn’t stopped us in the past. We’ll keep on making records whether you help us or not! But if you do help us, we can make even better records, and more of them!</p>
+		<p class="grey center-align ms-50">Having no money to make records hasn’t stopped us in the past. We’ll keep on making records whether you help us or not! But if you do help us, we can make even better records, and more of them!</p>
 		<div class="row">
 		  	<div class="column one-third">
 			  	<a href="https://senwisher.bandcamp.com/album/vacuum-sing" class="record">
@@ -115,10 +149,10 @@ permalink: /about/
 		</div>
 	</div>
 </section>
-<section class="section padding gold-stripes-background">
+<section id="your-part" class="section padding gold-stripes-background">
 	<div class="container">
 		<h2 class="h1 gold center-align">Contribute to songthing meaningful</h2>
-		<p class="center-align">Music as a product is easy. But music made for profit only documents the voices of one class of person. Making beautiful art is a little more difficult, and a little more time consuming. It often requires the help of a patron who happens to care about that art. We’d like to change that. You can help us with your monthly contribution. Think of it as a little vote to forward the music you care about.</p>
+		<p class="center-align ms-20">Music as a product is easy. But music made for profit only documents the voices of one class of person. Making beautiful art is a little more difficult, and a little more time consuming. It often requires the help of a patron who happens to care about that art. We’d like to change that. You can help us with your monthly contribution. Think of it as a little vote toward a future with good music.</p>
 		<script src="https://gumroad.com/js/gumroad.js"></script>
 		<a href="https://gum.co/jEzPn?wanted=true" target="_blank">
 			<div class="gold-border white-background about-levels hover-primary">

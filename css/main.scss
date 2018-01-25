@@ -90,6 +90,9 @@ img {
 svg:not(:root) {
   overflow: hidden;
 }
+svg {
+  overflow: visible;
+}
 figure {
   margin: 1em 40px;
 }
@@ -291,6 +294,62 @@ table {
   .offset-by-one-half.columns {
     margin-left: 52%; } }
 
+.mt-5 {
+  margin-top: .5vw;
+}
+.mt-10 {
+  margin-top: 1vw;
+}
+.mt-15 {
+  margin-top: 1.5vw;
+}
+.mt-20 {
+  margin-top: 2vw;
+}
+.mb-5 {
+  margin-bottom: .5vw;
+}
+.mb-10 {
+  margin-bottom: 1vw;
+}
+.mb-15 {
+  margin-bottom: 1.5vw;
+}
+.mb-20 {
+  margin-bottom: 2vw;
+}
+.ms-5 {
+  @media (min-width: 400px) {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+.ms-10 {
+  @media (min-width: 400px) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+.ms-15 {
+  @media (min-width: 400px) {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+.ms-20 {
+  @media (min-width: 400px) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+.ms-50 {
+  @media (min-width: 400px) {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Self Clearing Goodness */
@@ -304,6 +363,25 @@ table {
 /***********************
 Animations
 ************************/
+@keyframes upanddown {
+  0% {
+    transform: translate3d(0px, 0px, 0);
+  }
+  33% {
+    transform: translate3d(16px, -64px, 0);
+  }
+  66% {
+    transform: translate3d(-16px, 64px, 0);
+  }
+}
+@keyframes fadein {
+  0%, 100% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
@@ -367,6 +445,7 @@ $purple: #b85ea4;
 $pink: #ff7bac;
 $grey: #c0c0c0;
 $light-grey: lighten($grey, 10%);
+$lightest-grey: lighten($grey, 23%);
 $gold: $tan;
 $black: #000;
 $white: #fff;
@@ -384,7 +463,7 @@ $white: #fff;
 .purple { color: $purple; }
 .pink { color: $pink; }
 .gold { color: $gold; }
-.grey { color: $grey; }
+.grey { color: darken($grey, 10%); }
 .black { color: $black; }
 .white { color: $white; }
 
@@ -552,7 +631,7 @@ body {
 .right-align {
   @media (min-width: 550px) { text-align: right; }
 }
-.center-align {
+.center-align, .align-center {
   text-align: center;
 }
 .center-align-mb {
@@ -583,6 +662,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 3rem;
   font-weight: 300; }
+.margin {
+  margin-bottom: 3rem;
+}
 .h1 { 
   font-family: "BestSans";
   font-weight: 100;
@@ -901,12 +983,12 @@ label > .label-body {
 table {
   tr {
     th {
-      padding: 1.5vw 0vw 0vw 0vw;
+      padding: 1.25vw 0vw 0vw 0vw;
       text-align: left;
       color: $tan;      
     }
     td {
-      padding: 1.5vw 0vw;
+      padding: 1.25vw 0vw;
       text-align: left;
       border-bottom: $weight $light-tan; 
     }
@@ -920,7 +1002,7 @@ table {
   tfoot {
     tr td {
       color: $tan;
-      padding: 1.5vw 0vw;
+      padding: 1.25vw 0vw;
     }
   }
   th:first-child,
@@ -1081,6 +1163,48 @@ form {
     top: 0px;
   }
 }
+nav.secondary-nav {
+  ul {
+    li {
+      margin: 0 1.35vw;
+      a.active {
+        color: $gold !important;
+      }
+    }
+  }
+  &.secondary-nav-fixed {
+      transform: translateZ(0);
+      transition: top 0.5s;
+      top: -200px;
+      position: fixed;
+  }
+  &.active {
+    @media (min-width: 550px) {
+      animation: fadein 500ms linear;
+      left: 50%;
+      transform: translateX(-50%);
+      ul {
+        margin-bottom: 5px;
+        a {
+          color: $grey;
+        }
+      }
+    }
+    @media (min-width: 550px) and (max-width: 1000px) {
+      background: $lightest-grey;
+      border-bottom: $weight $grey;
+      width: 100%;
+      padding-top: 72px;
+      top: 0px;
+      z-index: 99;
+    }
+    @media (min-width: 1000px) {
+      top: 20px;
+      z-index: 101;
+      transform: translateX(-54%);
+    }
+  }
+}
 .logo {
   display: inline-block;
     @media (max-width: 550px) {
@@ -1192,12 +1316,44 @@ nav.site-nav {
 }
 /* About
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.hero-image .image {
-  max-width: 100%;
-  height: 530px;
+.svg-hero {
+  overflow: visible !important;
+}
+.hero-image {
+  animation: upanddown 9s ease infinite;
+  &:nth-of-type(1) { animation-delay: 500ms; }
+  &:nth-of-type(2) { animation-delay: 2s; }
+  &:nth-of-type(3) { animation-delay: 3500ms; }
+  &:nth-of-type(4) { animation-delay: 5s; }
+  &:hover {
+    animation: hoverbounce 1s ease infinite;
+  }
+  .image {
+    max-width: 100%;
+    &.image-1 {
+      height: 405px;
+      transform: translateX(5%);
+    }
+    &.image-2 {
+      transform: translateY(58%);
+      height: 500px;
+    }
+    &.image-3 {
+      transform: translateY(127%) translateX(10%);
+
+      height: 610px;
+    }
+    &.image-4 {
+      transform: translateY(180%);
+      height: 350px;
+    }
+  }
 }
 .fried-egg {
-  fill:none;stroke:$blue;stroke-width:3.5;stroke-linecap:round;stroke-miterlimit:10;
+  fill:none;stroke-width:3.5;stroke-linecap:round;stroke-miterlimit:10;
+  &:nth-of-type(1) { stroke:$blue;}
+  &:nth-of-type(2) { stroke:$orange;}
+  &:nth-of-type(3) { stroke:$pink; transform: translateY(154%);}
 }
 .about-levels {
   padding: 2.8vw 3vw;
