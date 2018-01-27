@@ -658,6 +658,9 @@ body {
 .center-align, .align-center {
   text-align: center;
 }
+.left-align, .align-left {
+  @media (min-width: 550px) { text-align: left; }
+}
 .center-align-mb {
   @media (max-width: 550px) {
     text-align: center;
@@ -1099,6 +1102,7 @@ ol ul {
 li {
   margin-bottom: 1rem; }
 ul.inline-list, ol.inline-list {
+  margin-left: 0px;
   li {
     display: inline-block;
     &:before {
