@@ -382,6 +382,22 @@ Animations
     transform: translateX(-12px) translateY(30px);
   }
 }
+@keyframes fadeoutin {
+  0%, 40%, 100% {
+    opacity: 0;
+  }
+  50%, 90% {
+    opacity: 1;
+  }
+}
+@keyframes fadeinout {
+  0%, 40%, 100% {
+    opacity: 1;
+  }
+  50%, 90% {
+    opacity: 0;
+  }
+}
 @keyframes fadein {
   0%, 100% {
     opacity: 0;
@@ -1390,15 +1406,17 @@ nav.site-nav {
 }
 .hero-image {
   animation: upanddown 9s ease infinite;
-  &:nth-of-type(1) { animation-delay: 0ms; }
-  &:nth-of-type(2) { animation-delay: 1s; }
+  &:nth-of-type(1) { animation: upanddown 9s ease infinite, fadeinout 9s ease infinite; }
+  &:nth-of-type(2) { animation: upanddown 9s ease infinite, fadeoutin 9s ease infinite; }
   &:nth-of-type(3) { animation-delay: 3s; }
-  &:nth-of-type(4) { animation-delay: 3.5s; }
+  &:nth-of-type(4) { animation: upanddown 9s ease 3.5s infinite, fadeinout 9s ease 3s infinite; }
+  &:nth-of-type(5) { animation: upanddown 9s ease 2s infinite, fadeinout 9s ease 6s infinite; }
+  &:nth-of-type(6) { opacity: 0; animation: upanddown 9s ease 1.5s infinite, fadeoutin 9s ease 3s infinite; }
   .image {
     max-width: 810px;
     max-width: 100%;
     &.image-1 {
-      transform: translateX(30px) translateY(-80px);
+      transform: translateY(-80px) translateX(30px);
     }
     &.image-2 {
       transform: translateY(290px);
@@ -1408,6 +1426,12 @@ nav.site-nav {
     }
     &.image-4 {
       transform: translateY(630px);
+    }
+    &.image-5 {
+      transform: translateY(670px) translateX(260px);
+    }
+    &.image-6 {
+      transform: translateX(260px);
     }
   }
 }
