@@ -27,21 +27,21 @@ permalink: /about/
 			<div class="columns six">
 				<svg  class="svg-hero" x="0px" y="0px" viewBox="0 0 810.4 1320">
 					<g class="hero-image">
-						<image class="image image-1" xlink:href="{{ 'images/page-about/jake-lyman.png' | relative_url }}" >
+						<image width="620px" height="840px" class="image image-1" xlink:href="{{ 'images/page-about/jake-lyman.png' | relative_url }}" >
 						</image>
 					</g>
 					<g class="hero-image">
-						<image class="image image-2" xlink:href="{{ 'images/page-about/emily-brown-1.png' | relative_url }}" >
+						<image width="780px" height="640px" class="image image-2" xlink:href="{{ 'images/page-about/emily-brown-1.png' | relative_url }}" >
 						</image>
 					</g>
 					<path class="fried-egg fried-egg-3" d="M97.3,845.2c0-49.5,16.6-106.4,36-142.4C157.6,658,191.7,634,255.2,634c80.1,0,114.1,34.4,114.1,75.8
 						c0,40.2-24,59.2-66.9,73.5c-50.3,16.6-56.1,32.9-85.9,78.6c-18.6,28.2-41.8,56.9-73.5,56.9C110.8,918.8,97.3,889.7,97.3,845.2z"/>
 					<g class="hero-image">
-						<image class="image image-3" xlink:href="{{ 'images/page-about/lindenfield-1.png' | relative_url }}" >
+						<image width="750px" height="660px" class="image image-3" xlink:href="{{ 'images/page-about/lindenfield-1.png' | relative_url }}" >
 						</image>
 					</g>
 					<g class="hero-image">
-						<image class="image image-4" xlink:href="{{ 'images/page-about/emily-brown-2.png' | relative_url }}" >
+						<image width="500px" height="380px" class="image image-4" xlink:href="{{ 'images/page-about/emily-brown-2.png' | relative_url }}" >
 						</image>
 					</g>
 					<path class="fried-egg fried-egg-1" d="M658.1,431.1c0,69.7-51.7,112.8-113.4,112.8c-64.3,0-67-31.2-118.1-31.2c-47.1,0-56.4,31.2-204.3,31.2
@@ -62,8 +62,8 @@ permalink: /about/
 	<div class="container">
 		<h2 class="h2 center-align gold">We’ve figured out our minimum cost <br/>to make a quality record</h2>
 		<p class="center-align ms-50">After years of making DIY records, we've figured out how to get the most bang for our buck.</p>
-		<img class="margin" src="{{ 'images/page-about/minimum-cost.png' | relative_url }}">
-		<div class="white-background grey-border button-ish margin">
+		<img class="margin hidden-xs" src="{{ 'images/page-about/minimum-cost.png' | relative_url }}">
+		<div class="white-background grey-border button-ish margin table-wrapper">
 		        <table class="u-full-width no-margin">
 		          <thead>
 		            <tr>
@@ -75,35 +75,35 @@ permalink: /about/
 		          <tbody>
 		            <tr>
 		              <td>Recording</td>
-		              <td>2-10 Weeks</td>
-		              <td>$1-2,000.00</td>
+		              <td>30 hrs</td>
+		              <td><span class="grey small">~ </span>$2.0k</td>
 		            </tr>
 		            <tr>
 		              <td>Production</td>
-		              <td>2-4 Weeks</td>
-		              <td>$1-2,000.00</td>
+		              <td>60 hrs</td>
+		              <td><span class="grey small">~ </span>$1.5k</td>
 		            </tr>
 		            <tr>
 		              <td>Manufacturing</td>
 		              <td class="grey small">N/A</td>
-		              <td>$300-1,000.00</td>
+		              <td><span class="grey small">~ </span>$1.0k</td>
 		            </tr>
 		            <tr>
-		              <td>Art/Music Videos</td>
-		              <td>2-6 Months</td>
-		              <td>$1-2,000.00</td>
+		              <td>Art/Videos</td>
+		              <td>2-6 Mos</td>
+		              <td><span class="grey small">~ </span>$1.5k</td>
 		            </tr>
 		            <tr>
-		              <td>Marketing/Promotion</td>
+		              <td>Marketing</td>
 		              <td class="grey small">N/A</td>
-		              <td>$1-2,000.00</td>
+		              <td><span class="grey small">~ </span>$1.0k</td>
 		            </tr>
 		          </tbody>
 		          <tfoot>
 			    <tr>
 		              <td></td>
 		              <td class="h6">Total</td>
-		              <td class="strong">$5-7,000.00</td>
+		              <td class="strong"><span class="grey small">~ </span>$7.0k</td>
 		            </tr>
 		          </tfoot>
 		        </table>

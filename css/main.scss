@@ -363,15 +363,23 @@ table {
 /***********************
 Animations
 ************************/
+@keyframes dash {
+  0%, 100% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 1000;
+  }  
+}
 @keyframes upanddown {
   0% {
-    transform: translate3d(0px, 0px, 0);
+    transform: translateX(0px) translateY(0px);
   }
   33% {
-    transform: translate3d(16px, -64px, 0);
+    transform: translateX(12px) translateY(-34px);
   }
   66% {
-    transform: translate3d(-16px, 64px, 0);
+    transform: translateX(-12px) translateY(30px);
   }
 }
 @keyframes fadein {
@@ -445,7 +453,7 @@ $purple: #b85ea4;
 $pink: #ff7bac;
 $grey: #c0c0c0;
 $light-grey: lighten($grey, 10%);
-$lightest-grey: lighten($grey, 23%);
+$lightest-grey: lighten($grey, 21%);
 $gold: $tan;
 $black: #000;
 $white: #fff;
@@ -660,8 +668,19 @@ div.mce_inline_error {
   border-radius: 3px; }
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 3rem;
-  font-weight: 300; }
+  @media (max-width: 550px) {
+      margin-bottom: 1rem;
+  }
+  @media (min-width: 550px) {
+      margin-bottom: 2rem;
+  }
+  @media (min-width: 750px) {
+      margin-bottom: 2.5rem;
+  }
+  @media (min-width: 900px) {
+      margin-bottom: 3rem;
+  }
+}
 .margin {
   margin-bottom: 3rem;
 }
@@ -670,7 +689,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
   font-size: 4.0rem; 
   line-height: 1;  
-  letter-spacing: -.1rem;}
+  letter-spacing: -.1rem;
+  @media (max-width: 550px) {
+    line-height: 1.05;
+  }
+}
 .h2 { 
   font-family: "CardinalGrotesque";
   font-weight: 300;
@@ -679,6 +702,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: .125rem; }
 .h3 { 
   font-family: "Ballpoint";
+  font-weight: 300;
   font-size: 3rem; 
   line-height: 1.3;  
   letter-spacing: 0;
@@ -741,10 +765,7 @@ a {
 .page-content a, .site-footer a {
   text-decoration: none;
   &:not(.button,.fa) {
-    text-shadow: 1px 1px $white; 
-    text-decoration: none;
-    border-bottom: $weight $pink;
-    display: inline-block;
+    text-decoration: underline;
   }
 }
 a:hover {
@@ -980,6 +1001,10 @@ label > .label-body {
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.table-wrapper {
+  overflow: auto;
+  overflow-y: hidden;
+}
 table {
   tr {
     th {
@@ -1254,6 +1279,7 @@ nav.secondary-nav {
 }
 nav.site-nav {
   @media (max-width: 550px) {
+    margin-top: -50px;
     label[for="nav-trigger"] {
       display: block;
       float: right;
@@ -1261,10 +1287,36 @@ nav.site-nav {
       height: 36px;
       z-index: 2;
       cursor: pointer;
+      top: 0px;
     }
     input ~ .trigger {
       clear: both;
-      display: none;
+      display: block;
+      padding-top: 22px;
+      ul {
+          border-radius: $border-radius;
+          border: $weight $grey;
+          overflow: hidden;
+          background: $white;
+          width: 100%;
+          list-style-type: none;
+          text-indent: 0px;
+          li {
+            margin: 0px;
+            &:last-of-type a {
+              border-bottom: 0px;
+            }
+            a {
+              text-decoration: none;
+              border-bottom: $weight $grey;
+              box-sizing: border-box;
+              padding: 1.5vw 2vw .7vw 2vw;
+              display: block;
+              width: 100%;
+              &.active { background-color: $lightest-grey; color: $grey;}
+            }
+          }
+      }
     }
     input:checked ~ .trigger {
       display: block;
@@ -1273,28 +1325,44 @@ nav.site-nav {
     .nav-trigger {
       display: none;
     }
+    .menu-icon {
+      .img {
+          height: 12px;
+      }
+      .img path {
+          transition: fill 500ms ease-in-out;
+      }
+      &:hover {
+        .img path {
+          fill: $gold;
+        }
+        .img path.gold-fill {
+          fill: $pink;
+        }
+      }
+    }
   }
   @media (min-width: 550px) {
     .nav-trigger, label[for="nav-trigger"] {
         display: none;
     }
-  }
-  float: right;
-  display: inline-block;
-  ul {
-    list-style-type: none;
-    li {
-      display: inline-block;
-      .active {
-        color: $grey;
-        pointer: default;
-      }
-      a {
-        text-decoration: none;
-        padding: 20px;
-      }
-      &:last-of-type a {
-        padding-right: 0px;
+    float: right;
+    display: inline-block;
+    ul {
+      list-style-type: none;
+      li {
+        display: inline-block;
+        .active {
+          color: $grey;
+          pointer: default;
+        }
+        a {
+          text-decoration: none;
+          padding: 20px;
+        }
+        &:last-of-type a {
+          padding-right: 0px;
+        }
       }
     }
   }
@@ -1318,42 +1386,39 @@ nav.site-nav {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .svg-hero {
   overflow: visible !important;
+  margin-bottom: 45px;
 }
 .hero-image {
   animation: upanddown 9s ease infinite;
-  &:nth-of-type(1) { animation-delay: 500ms; }
-  &:nth-of-type(2) { animation-delay: 2s; }
-  &:nth-of-type(3) { animation-delay: 3500ms; }
-  &:nth-of-type(4) { animation-delay: 5s; }
-  &:hover {
-    animation: hoverbounce 1s ease infinite;
-  }
+  &:nth-of-type(1) { animation-delay: 0ms; }
+  &:nth-of-type(2) { animation-delay: 1s; }
+  &:nth-of-type(3) { animation-delay: 3s; }
+  &:nth-of-type(4) { animation-delay: 3.5s; }
   .image {
+    max-width: 810px;
     max-width: 100%;
     &.image-1 {
-      height: 405px;
-      transform: translateX(5%);
+      transform: translateX(30px) translateY(-80px);
     }
     &.image-2 {
-      transform: translateY(58%);
-      height: 500px;
+      transform: translateY(290px);
     }
     &.image-3 {
-      transform: translateY(127%) translateX(10%);
-
-      height: 610px;
+      transform: translateY(775px) translateX(60px);
     }
     &.image-4 {
-      transform: translateY(180%);
-      height: 350px;
+      transform: translateY(630px);
     }
   }
 }
 .fried-egg {
   fill:none;stroke-width:3.5;stroke-linecap:round;stroke-miterlimit:10;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 14s ease-in-out forwards infinite;
   &:nth-of-type(1) { stroke:$blue;}
   &:nth-of-type(2) { stroke:$orange;}
-  &:nth-of-type(3) { stroke:$pink; transform: translateY(154%);}
+  &:nth-of-type(3) { stroke:$pink; transform: translateY(420px);}
 }
 .about-levels {
   padding: 2.8vw 3vw;
@@ -1587,7 +1652,11 @@ section.copyright {
 @media (min-width: 400px) {}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (max-width: 550px) {
+  .hidden-xs {
+    display: none;
+  }
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) {}
