@@ -61,7 +61,7 @@ permalink: /about/
 			</div>
 			<div class="columns six">
 				<p class="mt-20">It's a constant uphill battle for most of the independent artists you know and love. On top of moving forward in a complicated business world, the story many artists are trying to tell isn’t one that big record labels know how to sell or license. Most of our favorite records didn't go platinum, never made Spotify's Indie Chill playlist, or expanded the assets of General Electric—we're lucky they even got made in the first place!</p>
-				<p class="mb-15">Song Club Records was started by Kyle Benson in 2017 to help his buddies with their music projects. We’re now a group of musicians and producers trying to change the way our friends fund and produce those projects. With your help really good songwriters can spend more time writing beautiful and meaningful music <span class="small">(and less time: convincing their friends to like their facebook page)</span>.</p>
+				<p class="mb-15">Song Club Records was started by Kyle Benson in 2017 to help his buddies with their music projects. We’re now a group of musicians and producers trying to change the way our friends fund and produce those projects. With your help really good songwriters can spend more time writing beautiful and meaningful music <span class="small">(and less time convincing their friends to like their facebook page)</span>.</p>
 			</div>
 		</div>
 	</div>
@@ -69,7 +69,7 @@ permalink: /about/
 <section id="how" class="section padding gold-stripes-background">
 	<div class="container">
 		<h2 class="h2 center-align gold">We’ve figured out our minimum cost <br/>to make a quality record</h2>
-		<p class="center-align ms-50">After years of making DIY records, we've figured out how to get the most bang for our buck. There are a lot of </p>
+		<p class="center-align ms-50">After years of making DIY records, we've figured out how to get the most bang for our buck. </p>
 		<img class="margin hidden-xs" src="{{ 'images/page-about/minimum-cost.png' | relative_url }}">
 		<div class="white-background grey-border button-ish margin table-wrapper">
 		        <table class="u-full-width no-margin">
