@@ -160,8 +160,8 @@ permalink: /about/
 <section id="your-part" class="section padding gold-stripes-background">
 	<div class="container">
 		<h2 class="h1 gold center-align">Contribute to songthing meaningful</h2>
-		<p class="center-align ms-20">Making beautiful art is costly and time consuming. Many of the artists on Song Club Records have saved for years to pay for the recording and production of their past records, then have no money to market or promote those records. The process leaves them exhausted and defeated. This dilemna of making something beautiful, that might not be marketable as a product, has been solved in the past by the help of a patron. Modern patronage comes in the form of big label contracts for pop hits.</p>
-		<p class="center-align ms-20">We’d like to change that. Rather than promoting and asking fans to buy vinyl or shirts that they'll never wear, we're asking for a monthly contribution. This contribution is microfinancing for tiny artists who hardly have the time or energy to pay monthly bills, let alone pay for recordings. Think of it as a little vote toward a future with good music.</p>
+		<p class="center-align ms-20">Making beautiful art takes time and money. Many of the artists signed to Song Club Records have saved for years to pay for their past records, giving all and having no money or energy left to promote those records.This dilemna has been solved in the past by the help of a patron or a big label contract to write pop hits.</p>
+		<p class="center-align ms-20">We’d like to build a patronage that feels more like a co-op than a label. Rather than asking fans to buy vinyl or shirts that they'll never wear, we're asking for a monthly contribution. That contribution will act as microfinancing for tiny artists who want to make music to your ears but currently can hardly pay monthly bills. Becoming a Song Club Member sustains all artists on the label and casts your vote toward a future with good music.</p>
 		<script src="https://gumroad.com/js/gumroad.js"></script>
 		<a href="https://gum.co/jEzPn?wanted=true" target="_blank">
 			<div class="gold-border white-background about-levels hover-primary">
