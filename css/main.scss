@@ -1489,6 +1489,23 @@ nav.site-nav {
       z-index: 1;
     }
   }
+  &.record-pre-order {
+    .record-cover {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      filter: gray;
+    }
+    &:before {
+      content: "Available as Pre-order";
+      color: $white;
+      display: block;
+      position: absolute;
+      left: 50%;
+      top: 37%;
+      transform: translateX(-50%) translateY(-50%);
+      z-index: 1;
+    }
+  }
   img {
     max-width: 86%;
     padding: 7%;

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introducing Song Club Records"
-date:   2018-01-18 21:27:36 -0800
+date:   2018-06-07 10:00:00 -0800
 author:	Kyle Benson
 categories: press-release
 ---
