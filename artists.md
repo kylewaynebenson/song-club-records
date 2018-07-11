@@ -16,35 +16,36 @@ permalink: /artists/
 				<li><a class="fa fa-twitter" href="http://www.instagram.com/emilybrownmusic"></a></li>
 			</ul>
 			<div class="bio">
-				<p class="small">Emily Brown is a singer-songwriter from the Coachella Valley. She has performed and toured with The National Parks, Book on Tape Worm, and Porch Lights.</p>
+				<p class="small">Emily Brown is a singer-songwriter based in Oakland, California. She has performed and toured with The National Parks, Book on Tape Worm, and Porch Lights.</p>
 			</div>
 		</div>
       	</div>
       	<div class="columns four">
   		<div class="artist">
-			<img class="artist-photo" src="{{ "images/artist-photos/alyssa-pyper.png" | relative_url }}">
+  			<a href="https://alyssapyper.bandcamp.com/">
+			<img class="artist-photo" src="{{ "images/artist-photos/alyssa-pyper.jpg" | relative_url }}"></a>
 			<h3 class="h3 artist-name mt-10">Alyssa Pyper</h3>
 			<ul class="social-links inline-list">
 				<li><a class="fa fa-instagram" href="http://www.instagram.com/emilybrownmusic"></a></li>
-				<li><a class="fa fa-facebook" href="http://www.instagram.com/emilybrownmusic"></a></li>
-				<li><a class="fa fa-twitter" href="http://www.instagram.com/emilybrownmusic"></a></li>
+				<li><a class="fa fa-email" href="https://mailchi.mp/e98243532367/saltcrustalyssapyper"></a></li>
+				<li><a class="fa fa-bandcamp" href="https://alyssapyper.bandcamp.com/"></a></li>
 			</ul>
 			<div class="bio">
-				<p class="small">Emily Brown is a singer-songwriter from the Coachella Valley. She has performed and toured with The National Parks, Book on Tape Worm, and Porch Lights.</p>
+				<p class="small">Alyssa is a queer violinist and poet, raised in Utah Valley. She has released albums with local bands Choir Boy and Quiet House, and her experimental prose poetry has been featured in Peculiar: A Queer Literary Journal.</p>
 			</div>
 		</div>
       	</div>
       	<div class="columns four">
   		<div class="artist">
-			<img class="artist-photo" src="{{ "images/artist-photos/ben-swisher.png" | relative_url }}">
+  			<a href="http://senwisher.bandcamp.com">
+			<img class="artist-photo" src="{{ "images/artist-photos/ben-swisher.jpg" | relative_url }}"></a>
 			<h3 class="h3 artist-name mt-10">Sen Wisher</h3>
 			<ul class="social-links inline-list">
 				<li><a class="fa fa-instagram" href="http://www.instagram.com/senwisher"></a></li>
-				<li><a class="fa fa-facebook" href="http://www.instagram.com/senwisher"></a></li>
-				<li><a class="fa fa-twitter" href="http://www.instagram.com/senwisher"></a></li>
+				<li><a class="fa fa-bandcamp" href="http://senwisher.bandcamp.com"></a></li>
 			</ul>
 			<div class="bio">
-				<p class="small">Emily Brown is a singer-songwriter from the Coachella Valley. She has performed and toured with The National Parks, Book on Tape Worm, and Porch Lights.</p>
+				<p class="small">Sen Wisher is the moniker of Oregon based musician Ben Swisher. Frequent contributors include Stephen Cope (officer jenny), Stuart Wheeler (Quiet House), and more recently Sophie Blair (Nymph).</p>
 			</div>
 		</div>
       	</div>
@@ -60,7 +61,7 @@ permalink: /artists/
 				<li><a class="fa fa-twitter" href="http://www.instagram.com/jakelymanmusic"></a></li>
 			</ul>
 			<div class="bio">
-				<p class="small">Emily Brown is a singer-songwriter from the Coachella Valley. She has performed and toured with The National Parks, Book on Tape Worm, and Porch Lights.</p>
+				<p class="small">Jake Lyman is a Salt Lake-based musician who who has been nice to his friends since 2002. He has toured with songwriter Emily Brown and is a member of jangle pop band Fragile Cat.</p>
 			</div>
 		</div>
       	</div>
