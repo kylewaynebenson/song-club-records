@@ -546,10 +546,10 @@ Fonts
 @font-face {
   font-family: 'FontAwesome';
   font-weight: normal;
-  src: url('../fonts/FontAwesome.eot'); /* IE9 */
-  src: url('../fonts/FontAwesome.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/FontAwesome.woff2') format('woff2'),
-    url('../fonts/FontAwesome.woff') format('woff');
+  src: url('../fonts/FontAwesome-Regular.eot'); /* IE9 */
+  src: url('../fonts/FontAwesome-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/FontAwesome-Regular.woff2') format('woff2'),
+    url('../fonts/FontAwesome-Regular.woff') format('woff');
 }
 @font-face {
   font-family: 'CardinalGrotesque';
@@ -629,16 +629,25 @@ Fonts
   content: "\f16d";
 }
 .fa-facebook:before {
-  content: "\f082";
+  content: "\F082";
 }
 .fa-twitter:before {
-  content: "\f081";
+  content: "\F081";
 }
 .fa-email:before {
-  content: "\F003";
+  content: "\F1B5";
 }
 .fa-bandcamp:before {
-  content: "\F001"; 
+  content: "\F2D5"; 
+}
+.fa-youtube:before {
+  content: "\F167"; 
+}
+.fa-soundcloud:before {
+  content: "\F1BE"; 
+}
+.fa-spotify:before {
+  content: "\F1BC"; 
 }
 /***********************
 Styles

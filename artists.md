@@ -12,11 +12,12 @@ permalink: /artists/
 			<h3 class="h3 artist-name mt-10">Emily Brown</h3>
 			<ul class="social-links inline-list">
 				<li><a class="fa fa-instagram" href="http://www.instagram.com/emilybrownmusic"></a></li>
-				<li><a class="fa fa-facebook" href="http://www.instagram.com/emilybrownmusic"></a></li>
-				<li><a class="fa fa-twitter" href="http://www.instagram.com/emilybrownmusic"></a></li>
+				<li><a class="fa fa-facebook" href="http://www.facebook.com/emilybrownmusic"></a></li>
+				<li><a class="fa fa-twitter" href="http://www.twitter.com/emilybrownmusic"></a></li>
+				<li><a class="fa fa-bandcamp" href="http://emilybrown.bandcamp.com"></a></li>
 			</ul>
 			<div class="bio">
-				<p class="small">Emily Brown is a singer-songwriter based in Oakland, California. She has performed and toured with The National Parks, Book on Tape Worm, and Porch Lights.</p>
+				<p class="small">Emily Brown is a singer-songwriter and poet based in Oakland, California. Drawing comparisons to Joan Baez and Joni Mitchell, her clear voice and carefully crafted lyrics draw from personal experience and literary tradition.</p>
 			</div>
 		</div>
       	</div>
@@ -45,7 +46,7 @@ permalink: /artists/
 				<li><a class="fa fa-bandcamp" href="http://senwisher.bandcamp.com"></a></li>
 			</ul>
 			<div class="bio">
-				<p class="small">Sen Wisher is the moniker of Oregon based musician Ben Swisher. Frequent contributors include Stephen Cope (officer jenny), Stuart Wheeler (Quiet House), and more recently Sophie Blair (Nymph).</p>
+				<p class="small">Sen Wisher is the moniker of Oregon based musician Ben Swisher. Frequent contributors include Stephen Cope (<a href="https://officerjenny.bandcamp.com/">officer jenny</a>), Stuart Wheeler (<a href="https://thisisaquiethouse.bandcamp.com/">Quiet House</a>), and more recently Sophie Blair (<a href="https://nymph-music.bandcamp.com/">Nymph</a>).</p>
 			</div>
 		</div>
       	</div>
@@ -57,8 +58,8 @@ permalink: /artists/
 			<h3 class="h3 artist-name mt-10">Jake Lyman</h3>
 			<ul class="social-links inline-list">
 				<li><a class="fa fa-instagram" href="http://www.instagram.com/jakelymanmusic"></a></li>
-				<li><a class="fa fa-facebook" href="http://www.instagram.com/jakelymanmusic"></a></li>
-				<li><a class="fa fa-twitter" href="http://www.instagram.com/jakelymanmusic"></a></li>
+				<!-- <li><a class="fa fa-facebook" href="http://www.facebook.com/jakelymanmusic"></a></li> -->
+				<!-- <li><a class="fa fa-twitter" href="http://www.twitter.com/jakelymanmusic"></a></li> -->
 			</ul>
 			<div class="bio">
 				<p class="small">Jake Lyman is a Salt Lake-based musician who who has been nice to his friends since 2002. He has toured with songwriter Emily Brown and is a member of jangle pop band Fragile Cat.</p>
