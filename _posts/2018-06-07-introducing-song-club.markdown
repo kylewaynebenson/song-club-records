@@ -1,14 +1,12 @@
 ---
 layout: post
 title:  "Introducing Song Club Records"
-date:   2018-06-07 10:00:00 -0800
+date:   2018-07-12 10:00:00 -0800
 author:	Kyle Benson
 categories: press-release
 ---
-I am proud introduce my new foundry, store, and design service provider: Very Cool Studio! Very Cool Studio specializes in type design and lettering, logo and brand development, and commercial font licensing. All fonts and services are available exclusively through this very site, verycoolstudio.com. This new venture represents the natural next step of my work (Kyle Wayne Benson) and my foundry Fonts by Kyle Wayne Benson.
+Song Club Records, a grassroots record label centered around making meaningful records with relatively unknown musicians, is proud to announce that it exists. In the spirit of putting artistry ahead of marketing, Song Club Records hopes to make the kind of artistic and meaningful albums that get overlooked by bigger labels, albums more likely to touch a few people than they are to go platinum.
 
-With the opening of Very Cool Studio, I’ve released a brand-new font family called Cardinal Grotesque, as well as re-released new and improved versions of Kansas Casual and Maritime Champion. With the launch of verycoolstudio.com and the new foundry name, for the time being I will no longer be selling new releases through major distributors. It’s simply too hard to make a living as a type designer while distributors maintain their 50%+ claim of sales.
+The label is comprised of recording engineers, musicians, designers, and producers who are set on helping each other succeed. Fans of the label have the opportunity to subscribe to the label’s upcoming releases and exclusive updates by supporting through <a href="https://gumroad.com/songclub">Gumroad</a> and <a href="https://www.patreon.com/songclubrecords">Patreon</a>.
 
-fonts.kylewaynebenson.com went online in late 2012 with only two font files for sale, and a simple digital downloads WordPress plugin hooked up to Paypal for payment processing. As the font collection expanded it became more apparent how ill equipped the site was to keep up with the ideas I had for the future of the foundry. At the same time, selling fonts under my name presented an ego problem. I felt uncomfortable tooting my own horn—I needed a brand I could hide my vanity behind. So, two years ago I decided to write up a list of all the things I’d love to build into a site. I still have 31 items on that list. Here are just a few examples where that list came to life in this new site.
-
-A type tester that lets you test font features
+Song Club’s 2018 release lineup includes an album from each artist: Emily Brown’s “Bee Eater,” Sen Wisher’s “Bird Languages,” Alyssa Pyper’s “Salt Crust,” and Jake Lyman's “Bad for Me.” Please get in touch with Kyle at <a href="mailto:contact@songclubrecords.com">contact@songclubrecords.com</a> for interviews, press inquiries and promo copies of upcoming records.
