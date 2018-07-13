@@ -46,7 +46,7 @@ permalink: /artists/
 				<li><a class="fa fa-bandcamp" href="http://senwisher.bandcamp.com"></a></li>
 			</ul>
 			<div class="bio">
-				<p class="small">Sen Wisher is the moniker of Oregon based musician Ben Swisher. Frequent contributors include Stephen Cope (<a href="https://officerjenny.bandcamp.com/">officer jenny</a>), Stuart Wheeler (<a href="https://thisisaquiethouse.bandcamp.com/">Quiet House</a>), and more recently Sophie Blair (<a href="https://nymph-music.bandcamp.com/">Nymph</a>).</p>
+				<p class="small">Sen Wisher is a pseudonym for Ben Swisher’s sentimental shapeshifter art pop—involving <a href="https://thisisaquiethouse.bandcamp.com/">Stuart Wheeler</a>, <a href="https://officerjenny.bandcamp.com/">Stephen Cope</a> and <a href="https://nymph-music.bandcamp.com/">Sophie Blair</a>. In mysterious Eugene, Ben seeks answers from volcanoes, vacuums and now birds, through increasingly unruly soundscapes. Yawning organs, bowed banjos and pitch-processed vocals reach outward. Only more questions return.</p>
 			</div>
 		</div>
       	</div>
