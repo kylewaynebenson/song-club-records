@@ -48,7 +48,14 @@
         <div class="trigger">
           {% assign current = page.url | downcase | split: '/' %}
             <ul>
-              <li><a href="{{ site.baseurl }}/about/" {% if current[1] == 'about' %}class='active'{% endif %}>About</a></li>
+              <li><a id="about" href="{{ site.baseurl }}/about/" {% if current[1] == 'about' %}class='active'{% endif %}>About</a></li>
+              <script type="text/javascript">
+              $( '#$about' ).click(function() {
+                fbq('track', 'ViewContent');
+              }
+              </script>
+
+              </script>
               <li><a href="{{ site.baseurl }}/news/" {% if current[1] == 'news' %}class='active'{% endif %}>News</a></li>
               <li><a href="{{ site.baseurl }}/artists/" {% if current[1] == 'artists' %}class='active'{% endif %}>Artists</a></li>
             </ul>
