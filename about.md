@@ -62,9 +62,12 @@ permalink: /about/
 						c-84.8,0-94.2-110.2-204-110.2c-46,0-65.6,20.1-97.3,20.1C265.4,703.9,233.3,674.9,233.3,632.9z"/>
 				</svg>
 			</div>
-			<div class="columns six">
-				<p class="mt-20">It's a constant uphill battle for most of the independent artists you know and love. On top of moving forward in a complicated business world, the story many artists are trying to tell isn’t one that big record labels know how to sell or license. Most of our favorite records didn't go platinum, never made Spotify's Indie Chill playlist, or expanded the assets of General Electric—we're lucky they even got made in the first place!</p>
-				<p class="mb-15">Song Club Records was started by Kyle Benson in 2017 to help his buddies with their music projects. We’re now a group of musicians and producers trying to change the way our friends fund and produce those projects. With your help really good songwriters can spend more time writing beautiful and meaningful music <span class="small">(and less time convincing their friends to like their facebook page)</span>.</p>
+			<div class="columns one">
+				<br/>
+			</div>
+			<div class="columns five">
+				<p class="mt-20">Song Club Records was started by Kyle Benson in 2017 to help his buddies with their music projects. We’re now a group of musicians and producers trying to change the way our friends fund and produce those projects.</p>
+				<p class="mt-15">It's an uphill battle for most of the independent artists you know and love. The important stories our artists are trying to tell are difficult to market and license, but we think it's worth the challenge. Our favorite records never made Spotify's Indie Chill playlist, or expanded the assets of General Electric—we're lucky they even got made in the first place! With your help really good songwriters can spend more time writing meaningful music and less time convincing their friends to like their facebook page.</p>
 			</div>
 		</div>
 	</div>

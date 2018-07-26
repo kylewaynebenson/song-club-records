@@ -21,6 +21,20 @@ permalink: /artists/
 			</div>
 		</div>
       	</div>
+     	<div class="columns four">
+  		<div class="artist">
+  			<a href="http://senwisher.bandcamp.com">
+			<img class="artist-photo" src="{{ "images/artist-photos/ben-swisher.jpg" | relative_url }}"></a>
+			<h3 class="h3 artist-name mt-10">Sen Wisher</h3>
+			<ul class="social-links inline-list">
+				<li><a class="fa fa-instagram" href="http://www.instagram.com/senwisher"></a></li>
+				<li><a class="fa fa-bandcamp" href="http://senwisher.bandcamp.com"></a></li>
+			</ul>
+			<div class="bio">
+				<p class="small">Sen Wisher is a pseudonym for Ben Swisher’s sentimental shapeshifter art pop—involving <a href="https://thisisaquiethouse.bandcamp.com/">Stuart Wheeler</a>, <a href="https://officerjenny.bandcamp.com/">Stephen Cope</a> and <a href="https://nymph-music.bandcamp.com/">Sophie Blair</a>. In mysterious Eugene, Ben seeks answers from volcanoes, vacuums and now birds, through increasingly unruly soundscapes. Yawning organs, bowed banjos and pitch-processed vocals reach outward. Only more questions return.</p>
+			</div>
+		</div>
+      	</div>
       	<div class="columns four">
   		<div class="artist">
   			<a href="https://alyssapyper.bandcamp.com/">
@@ -32,21 +46,7 @@ permalink: /artists/
 				<li><a class="fa fa-bandcamp" href="https://alyssapyper.bandcamp.com/"></a></li>
 			</ul>
 			<div class="bio">
-				<p class="small">Alyssa is a queer violinist and poet, raised in Utah Valley. She has released albums with local bands Choir Boy and Quiet House, and her experimental prose poetry has been featured in Peculiar: A Queer Literary Journal.</p>
-			</div>
-		</div>
-      	</div>
-      	<div class="columns four">
-  		<div class="artist">
-  			<a href="http://senwisher.bandcamp.com">
-			<img class="artist-photo" src="{{ "images/artist-photos/ben-swisher.jpg" | relative_url }}"></a>
-			<h3 class="h3 artist-name mt-10">Sen Wisher</h3>
-			<ul class="social-links inline-list">
-				<li><a class="fa fa-instagram" href="http://www.instagram.com/senwisher"></a></li>
-				<li><a class="fa fa-bandcamp" href="http://senwisher.bandcamp.com"></a></li>
-			</ul>
-			<div class="bio">
-				<p class="small">Sen Wisher is a pseudonym for Ben Swisher’s sentimental shapeshifter art pop—involving <a href="https://thisisaquiethouse.bandcamp.com/">Stuart Wheeler</a>, <a href="https://officerjenny.bandcamp.com/">Stephen Cope</a> and <a href="https://nymph-music.bandcamp.com/">Sophie Blair</a>. In mysterious Eugene, Ben seeks answers from volcanoes, vacuums and now birds, through increasingly unruly soundscapes. Yawning organs, bowed banjos and pitch-processed vocals reach outward. Only more questions return.</p>
+				<p class="small">Alyssa is a queer violinist and poet, raised in Utah Valley. She has released albums with local bands <a href="https://choirboy.bandcamp.com/">Choir Boy</a> and <a href="https://thisisaquiethouse.bandcamp.com/">Quiet House</a>, and her experimental prose poetry has been featured in Peculiar: A Queer Literary Journal. Alyssa teaches violin, records jingles for TV shows and commercials, and studies Writing and Rhetoric at the University of Utah.</p>
 			</div>
 		</div>
       	</div>
