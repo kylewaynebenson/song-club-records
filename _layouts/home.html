@@ -5,68 +5,19 @@ layout: default
 <div class="home">
 	<section class="section padding-bottom">
 		<div class="container">
-			<div class="row">
-				<div class="column one-third">
-					<a href="http://listentoemilybrown.com/" class="record record-preorder">
+			<div class="flex justify-between flex-wrap">
+			{% for album in site.data.albums %}
+			  <div class="md:w-31">
+			    <a class="record" href="{{ album.link }}">
 						<header>
-							<span class="release-date gold h6">SOON</span>
-							<img class="record-cover" src="images/record-covers/1800_placeholder.png">
+							<span class="release-date gold h6">{{ album.date }}</span>
+							<img class="record-cover" src="images/record-covers/{{ album.artist  | replace: ' ', '-' }}_{{ album.name  | replace: ' ', '-' }}.jpg">
 						</header>
-						<h3 class="h3 record-title">A Fish of Earth</h3>
-						<p class="h6 tan"><span class="blue">BY</span> Emily Brown</p>
-						</a>
-				</div>
-				<div class="column one-third">
-					<a href="https://emilybrown.bandcamp.com/album/bee-sides" class="record record-outnow">
-						<header>
-							<span class="release-date gold h6">March 29, 2019</span>
-							<img class="record-cover" src="images/record-covers/1903_bee-sides.jpg">
-						</header>
-						<h3 class="h3 record-title">Bee Sides</h3>
-						<p class="h6 tan"><span class="blue">BY</span> Emily Brown</p>
-						</a>
-				</div>
-				<div class="column one-third">
-					<a href="https://senwisher.bandcamp.com/album/bird-languages/" class="record">
-						<header>
-							<span class="release-date gold h6">November 23, 2018</span>
-							<img class="record-cover" src="images/record-covers/1810_bird-languages.jpg">
-						</header>
-						<h3 class="h3 record-title">Bird Languages</h3>
-						<p class="h6 tan"><span class="blue">BY</span> Sen Wisher</p>
-						</a>
-				</div>
-			</div>
-			<div class="row">
-				<div class="column one-third">
-					<a href="https://emilybrown.bandcamp.com/album/bee-eater" class="record record-outnow">
-						<header>
-							<span class="release-date gold h6">August 31, 2018</span>
-							<img class="record-cover" src="images/record-covers/1801_BeeEater.png">
-						</header>
-						<h3 class="h3 record-title">Bee Eater</h3>
-						<p class="h6 tan"><span class="blue">BY</span> Emily Brown</p>
-						</a>
-				</div>
-				<div class="column one-third">
-					<div class="record record-coming-soon">
-						<span class="release-date gold h6">2019-ISH</span>
-						<img class="record-cover" src="images/record-covers/1800_placeholder.png">
-						<h3 class="h3 record-title">Salt Crust</h3>
-						<p class="h6 tan"><span class="blue">BY</span> Alyssa Pyper</p>
-						</div>
-				</div>
-			  	<div class="column one-third">
-				  	<div class="record record-coming-soon">
-				  		<span class="release-date gold h6">2019-ISH</span>
-						<img class="record-cover" src="images/record-covers/1800_placeholder.png">
-						<h3 class="h3 record-title">Bad for Me</h3>
-						<p class="h6 tan"><span class="blue">BY</span> Jake Lyman</p>
-				      	</div>
-				</div>
-			  	<!-- <div class="column one-third">
-			  		<div><br/> </div>
-				</div> -->
+						<h3 class="h3 record-title">{{ album.name }}</h3>
+						<p class="h6 tan"><span class="blue">BY</span> {{ album.artist }}</p>
+			    </a>
+			  </div>
+			{% endfor %}
 			</div>
 		</div>
 	</section>
