@@ -1,7 +1,12 @@
+- name: Salt Crust
+  artist: Alyssa Pyper
+  date: TBA
+  link: https://alyssapyper.bandcamp.com/
+  
 - name: A Fish of Earth
   artist: Emily Brown
   date: October 23, 2020
-  link: http://listentoemilybrown.com/
+  link: https://emilybrown.bandcamp.com/album/a-fish-of-earth
 
 - name: Bee Sides
   artist: Emily Brown
@@ -17,11 +22,6 @@
   artist: Emily Brown
   date: August 31, 2018
   link: https://emilybrown.bandcamp.com/album/bee-eater
-
-- name: Salt Crust
-  artist: Alyssa Pyper
-  date: TBA
-  link:
 
 - name: Bad for Me
   artist: Lynn Wynn
